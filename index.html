@@ -1,34 +1,196 @@
 <html lang = "pt-br">
     <head>
+        <link rel="stylesheet" href="style.css">
+       
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Buda:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Brawler" rel="stylesheet">
+
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+       
         <!-- Meta tags-->
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name=viewport content="width=device-width, initial-scale=1">
-        <title>Portifólio | Gabriel Albino</title>
-        <meta name="description" content="Portifólio contendo alguns dos meus trabalhos.">
+        <title>Portfólio | Gabriel Albino</title>
+        <meta name="description" content="Portfólio contendo alguns dos meus trabalhos.">
         <meta name=viewport content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="images/favicon.ico" />
+        
         <!-- Twitter Card data -->
         <meta name="twitter:card" value="summary">
 
         <!-- Open Graph data -->
-        <meta property="og:title" content="Portifólio | Gabriel Albino" />
+        <meta property="og:title" content="Portfólio | Gabriel Albino" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://gabrielalbino.github.io/" />
         <meta property="og:image" content="images/prof_pic.jpeg" />
-        <meta property="og:description" content="Portifólio contendo alguns dos meus trabalhos." />
+        <meta property="og:image:width" content = "760px">
+        <meta property="og:description" content="Portfólio contendo alguns dos meus trabalhos." />
     </head>
     
     
     <body>
-        <img src = "images/prof_pic.jpeg">
+        <div class = "page custom-bg row">
+            <h1 class = "title name col-8 offset-4">
+                Gabriel Albino
+            </h1>
+            <div class = "row description">
+                <div class = "col-2 offset-1">
+                    <img class = "profile-picture" src = "images/prof_pic.jpeg" max-width="100%" max-height = "100%">
+                </div>
+                <div class = "col-8 offset-1">
+                    <h2 class = "shine subtitle">Olá! Vamos fazer um tour?</h2>
+                    <p class = "shine text">Você será apresentado ao meu trabalho e algumas informações sobre mim que possam te interessar.</p>
+                </div>
+            </div>
+        </div>
+        <div class = "page vanilla-bg">
+            <div class = "row first-title">
+                <div class = "col-11 offset-1">
+                    <h2 class = "title dark">
+                        Quem Sou Eu?
+                    </h2>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "pad-top-16 col-11 offset-1">
+                    <p class = "text dark">
+                        Me chamo Gabriel Albino, graduando em Engenharia de Software pela Universidade de Brasília. Atualmente tenho 20 anos e curso o sexto semestre.
+                    </p>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "pad-top-32 col-11 offset-1">
+                    <h2 class = "subtitle dark">
+                        Conhecimentos
+                    </p>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "pad-top-12 col-10 offset-1">
+                    <img src = "images/conhecimentos.png">
+                </div>
+            </div>
+        </div>
+        <div class = "page custom-bg">
+            <div class = "row first-title">
+                <div class = "col-11 offset-1">
+                    <h2 class = "title shine">
+                        Show me your code
+                    </h2>
+                </div>
+            </div>
+            <div class = "row pad-top-32">
+                <div class = "col-10 offset-1">
+                    <div class = "spacing-wrapper">
+                        <span>
+                            <div>
+                                <h2 class = "subtitle dark">Portfólio</h2>
+                                <img src = "images/port.png" class = "centered">
+                                <p class = "text dark">
+                                        Sim, você está olhando para ele. Esse é um portfólio do meu trabalho, portanto, ele é um trabalho meu.                                     
+                                </p>
+                                <ul>
+                                    <li>
+                                        <a class = "text" href = "https://www.figma.com/file/VZZK7AwKE8YbBWYXA5oiTYUr/Untitled?node-id=1%3A3">Protótipo</a>
+                                    </li>
+                                    <li>
+                                        <a class = "text" href = "https://github.com/gabrielalbino/gabrielalbino.github.io">Código</a>
+                                    </li>
+                                    <li>
+                                        <a class = "text" href = "#">Demo / Download</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </span>
+                        <span>
+                                <div>
+                                    <h2 class = "subtitle dark">Nexte</h2>
+                                    <img src = "images/nexte.png" class = "centered">
+                                    <p class = "text dark">
+                                            Aplicativo android em Kotlin que visa melhorar a interação entre sócios de clubes amadores de tênis através da gameficação.                        
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <a class = "text" href = "https://github.com/fga-eps-mds/2018.1_Nexte">Código</a>
+                                        </li>
+                                        <li>
+                                            <a class = "text" href = "https://github.com/fga-eps-mds/2018.1_Nexte/releases">Demo / Download</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                        </span>
+                        <span>
+                            <div>
+                                <h2 class = "subtitle dark">CodeBook</h2>
+                                <img src = "images/codebook.png" class = "centered">
+                                <p class = "text dark">
+                                        Site para melhorar interação entre alunos, permitindo que eles criem, preencham e compartilhem entre si cadernos.
+                                </p>
+                                <ul>
+                                    <li>
+                                        <a class = "text" href = "https://github.com/gabrielalbino/CodeBook">Código</a>
+                                    </li>
+                                    <li>
+                                        <p class = "text dark">Demo / Download</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class = "page vanilla-bg">
+            <div class = "row first-title">
+                <div class = "col-7 offset-1">
+                    <h2 class = "title dark">
+                            Experiência Profissional
+                    </h2>
+                </div>
+                <div class = "col-3 ">
+                    <h2 class = "title dark">
+                        Contato
+                    </h2>
+                </div>
+            </div>
+            <div class = "row pad-top-32">
+                <div class = "col-7 offset-1">
+                    <div class="row">
+                        <div class="col-2"><img src = "images/sea.png"></div>
+                        <div class="col">
+                            <a class = "text" href = "https://www.seatecnologia.com.br/">SEA TECNOLOGIA</a>
+                            <p class = "text">Estagiário Front-End</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class = "col-3">
+                    <ul>
+                        <li>
+                            <img src = "images/gh.png">
+                            <a class = "text" href = "https://github.com/gabrielalbino/">gabrielalbino</a>
+                        </li>
+                        <li>
+                                <img src = "images/wpp.png">
+                                <a class = "text" href = "https://wa.me/5561982195010">+55 (61) 9 8219 5010</a>
+                        </li>
+                        <li>
+                                <img src = "images/gmail.png">
+                                <a class = "text" href = "mailto:enggabrielalbino@gmail.com">enggabrielalbino@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </body>
     
-    
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script>
     
     </script>
