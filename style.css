@@ -1,104 +1,29 @@
-body, html{
-    padding: 0px;
-    margin: 0px;
-}
-.row{
-    width: 100%;
-}
-.page{
-    height: 115vh;
-}
-h2.subtitle{
-    font-family: 'Brawler', serif;
-    font-size: 32px;
-    line-height: 40px;
-    height: 40px;
-    letter-spacing: -1%;
-}
-p.text, a.text{
-    font-family: 'Brawler', serif;
-    font-size: 18px;
-    line-height: 22px;
-    height: fit-content;
-    letter-spacing: -1%;
+#inicio, #sobre, #trabalhos, #contato{
+    margin: 5rem 0px;
 }
 
-img.centered{
-    display:block;
-    margin: 0 auto;
+.display-3{
+    border-bottom: 1px solid #333;
+    margin-bottom: 2rem;
 }
-div.spacing-wrapper{
-    display: table;
-    width: 100%;
-    table-layout: fixed; 
+
+.col-sm-12 p{
+    margin-top: 2rem;
 }
-ul, li{
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
+
+.col-md-4 img{
+    border-radius: 500px;
 }
-.col-3 ul li{
-    padding: 10px 0px;
-}
-div.spacing-wrapper span{
-    display: table-cell;
-    padding: 8px 4%;
-}
-div.spacing-wrapper span div{
-    background: #E6CBC4;
-    border-radius: 15px;
-    padding: 8px 16px;
-}
-div.spacing-wrapper span div img{
-    margin-top: 28px;
-    margin-bottom: 28px;
-}
-.dark{
-    color: #252525;
-}
-.pad-top-12{
-    padding-top: 12px;
-}
-.pad-top-16{
-    padding-top: 16px;
-}
-.pad-top-32{
-    padding-top: 32px;
-}
-.custom-bg{
-    background-image: url(images/background.svg);
-}
-.vanilla-bg{
-    background-color: #F6FEFF;
-}
-h1.title, h2.title{
-    font-family: 'Buda', cursive;
-    font-size: 72px;
-    line-height: 90px;
-    letter-spacing: -2%;
-}
-h1.name{
-    padding-top: 128px;
-    color: #F6FEFF;
-    height: 90px;
-}
-.row.description{
-    padding-top: 14px;
-    height: fit-content;
-}
-.row.description .col-8{
-    position: relative;
-    display: table-cell;
-    padding-top: 90px;
-}
-.row.first-title{
-    padding-top: 64px;
-}
-.row.description .profile-picture{
+
+img{
     max-width: 100%;
-    border-radius: 1000px;
 }
 
-.shine{
-    color: #F6FEFF;
+#carouselExampleIndicators{
+    margin-top: 2rem;
+}
+
+#contato ul, #contato li{
+    list-style: none;
+    padding: 10px 0px;
 }
