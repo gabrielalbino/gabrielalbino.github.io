@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Heading, Icon, IconButton, Link, Menu, MenuButton, MenuItem, MenuList, Stack, useColorModeValue } from '@chakra-ui/react';
+import { Box, Container, Flex, Heading, IconButton, Link, Menu, MenuButton, MenuItem, MenuList, Stack, useColorModeValue } from '@chakra-ui/react';
 import Logo from './logo';
 import NextLink from 'next/link';
 import { HamburgerIcon } from '@chakra-ui/icons';
@@ -7,7 +7,7 @@ const LinkItem = ({ href, path, children }) => {
   const active = path === href;
   const inactiveColor = useColorModeValue('gray200', 'white');
   return (
-    <NextLink href={href}>
+    <NextLink passHref href={href}>
       <Link p={2} bg={active ? 'teal' : undefined} color={active ? '#202023' : inactiveColor}>
         {children}
       </Link>

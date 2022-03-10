@@ -21,7 +21,7 @@ const Logo = () => {
   return (
     <Link href="/">
       <LogoBox>
-        <Image src={image} width={5} height={5}></Image>
+        <Image src={image} width={5} height={5} alt="Site Logo"></Image>
         <Text color={useColorModeValue('gray.800', 'whiteAlpha.900')} fontFamily='M PLUS Rounded 1c' fontWeight="bold" ml={3}>Gabriel Albino</Text>
       </LogoBox>
     </Link>

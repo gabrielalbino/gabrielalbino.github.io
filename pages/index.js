@@ -1,10 +1,12 @@
+/*eslint no-unused-vars: "error"*/
+
 import { Box, Container, Heading, Text } from '@chakra-ui/react'
 
 const Page = () => {
     return (
         <Container>
             <Box borderRadius="lg" bg="red" p={3} mb={6} align="center">
-                <div>Hello, I'm Gabriel Albino. Brazilian front-end developer.</div>
+                <div>Hello, I&apos;m Gabriel Albino. Brazilian front-end developer.</div>
             </Box>
 
             <Box display={{md: 'flex'}}>
